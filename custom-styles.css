@@ -12,17 +12,18 @@
   bottom: -100000px;
 }
 
-/* Тени для текста */
-.text-shadow {
-  color: #ffffff;
-  text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
-}
-
 /* Общая обёртка карточек */
 .ht {
   overflow: hidden;
 }
-
+#rec781043790 {
+  display: none;
+}
+#rec646267041,
+#rec646269336,
+#rec646278424 {
+  display: none;
+}
 .hover-cards {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0);
