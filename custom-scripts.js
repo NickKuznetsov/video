@@ -226,15 +226,3 @@ testimonialCardsContainer.addEventListener('scroll', () => {
 
 goToIndex(0);
 
-document.addEventListener("DOMContentLoaded", function () {
-  const idsToHide = [
-    'rec781043790',
-    'rec646267041',
-    'rec646269336',
-    'rec646278424'
-  ];
-  idsToHide.forEach(id => {
-    const el = document.getElementById(id);
-    if (el) el.style.display = 'none';
-  });
-});
