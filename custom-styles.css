@@ -16,13 +16,11 @@
 .ht {
   overflow: hidden;
 }
-#rec781043790 {
-  display: none;
-}
+#rec781043790,
 #rec646267041,
 #rec646269336,
 #rec646278424 {
-  display: none;
+  display: none !important;
 }
 .hover-cards {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
